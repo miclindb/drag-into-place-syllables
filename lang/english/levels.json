@@ -1,0 +1,12 @@
+[
+  {"level_id": 1, "target_word": "banana", "syllables": ["ba", "na", "na"], "syllable_foils": ["be", "no"], "image": "🍌", "audio": "lang/english/audios/banana.wav", "syllable_audio_overrides": {"2": "lang/english/audios/syllables/na_unstressed.wav"}},
+  {"level_id": 2, "target_word": "elephant", "syllables": ["el", "e", "phant"], "syllable_foils": ["al", "fan"], "image": "🐘", "audio": "lang/english/audios/elephant.wav"},
+  {"level_id": 3, "target_word": "butterfly", "syllables": ["but", "ter", "fly"], "syllable_foils": ["bat", "flyer"], "image": "🦋", "audio": "lang/english/audios/butterfly.wav"},
+  {"level_id": 4, "target_word": "computer", "syllables": ["com", "pu", "ter"], "syllable_foils": ["cam", "per"], "image": "💻", "audio": "lang/english/audios/computer.wav"},
+  {"level_id": 5, "target_word": "dinosaur", "syllables": ["di", "no", "saur"], "syllable_foils": ["die", "so"], "image": "🦕", "audio": "lang/english/audios/dinosaur.wav"},
+  {"level_id": 6, "target_word": "tomato", "syllables": ["to", "ma", "to"], "syllable_foils": ["ta", "mo"], "image": "🍅", "audio": "lang/english/audios/tomato.wav", "syllable_audio_overrides": {"2": "lang/english/audios/syllables/to_full.wav"}},
+  {"level_id": 7, "target_word": "rainbow", "syllables": ["rain", "bow"], "syllable_foils": ["train", "beau"], "image": "🌈", "audio": "lang/english/audios/rainbow.wav"},
+  {"level_id": 8, "target_word": "kangaroo", "syllables": ["kan", "ga", "roo"], "syllable_foils": ["can", "go"], "image": "🦘", "audio": "lang/english/audios/kangaroo.wav"},
+  {"level_id": 9, "target_word": "octopus", "syllables": ["oc", "to", "pus"], "syllable_foils": ["ock", "tus"], "image": "🐙", "audio": "lang/english/audios/octopus.wav"},
+  {"level_id": 10, "target_word": "helicopter", "syllables": ["he", "li", "cop", "ter"], "syllable_foils": ["ha", "ker"], "image": "🚁", "audio": "lang/english/audios/helicopter.wav"}
+]

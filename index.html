@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drag Into Place</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="app" aria-labelledby="game-title">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Curious Reader</p>
+          <h1 id="game-title">Drag Into Place</h1>
+        </div>
+        <div class="topbar-status">
+          <p id="progress" class="progress" aria-live="polite"></p>
+          <p id="score" class="score" aria-live="polite"></p>
+          <button id="moving-toggle" class="moving-toggle" type="button" aria-pressed="false">
+            🎯 Moving tiles: Off
+          </button>
+        </div>
+      </header>
+
+      <section class="game-card">
+        <div class="picture-panel">
+          <div id="picture" class="picture" role="img" aria-label="Picture clue"></div>
+          <p id="prompt" class="prompt">Build the word from its syllables</p>
+        </div>
+
+        <section class="answer-section" aria-labelledby="answer-title">
+          <h2 id="answer-title">Build the word</h2>
+          <div id="answer-area" class="answer-area" role="group" aria-label="Answer slots"></div>
+          <div id="hint-area" class="hint-area" aria-label="Syllable hints"></div>
+        </section>
+
+        <section class="letter-section" aria-labelledby="letters-title">
+          <h2 id="letters-title">Syllables</h2>
+          <p class="instruction">Drag each syllable into its matching space, or tap a syllable then tap a space to place it.</p>
+          <div id="letter-tray" class="letter-tray" aria-label="Available syllables"></div>
+        </section>
+
+        <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+        <button id="hear-button" class="hear-button" type="button" hidden>🔊 Hear word</button>
+        <button id="next-button" class="next-button" type="button" hidden>Next word</button>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

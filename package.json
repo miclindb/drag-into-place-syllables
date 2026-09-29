@@ -1,0 +1,18 @@
+{
+  "name": "syllables-drag-into-place",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curious Reader offline literacy game: drag syllables into place to build a word.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test \"test/**/*.test.js\"",
+    "check:content": "node scripts/validate-content.mjs",
+    "check:offline": "node scripts/check-offline.mjs",
+    "check": "npm run check:content && npm run check:offline && npm test",
+    "package": "npm run check && node scripts/package.mjs"
+  }
+}
